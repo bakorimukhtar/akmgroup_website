@@ -679,3 +679,17 @@ header {
     width: 100%;
     margin-top: 10px;
   }
+
+  /* Add this to the bottom of styles.css */
+.typing-cursor {
+    display: inline-block;
+    margin-left: 5px;
+    color: #fff; /* or match your gradient color */
+    animation: blink 1s infinite;
+    font-weight: 100;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
